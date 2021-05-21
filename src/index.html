@@ -1,16 +1,348 @@
 <!DOCTYPE html>
-<html lang="ZH-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-    <style>
-
-    </style>
+    <meta name="viewport" content="width=device-width">
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./main.js"></script>
+<div class="layout" id="page">
+    <header>
+        <h1>姓名</h1>
+        <p>男 | 29岁 | 前端开发工程师 </p>
+    </header>
+    <aside>
+        <div class="avatar">
+            <div class="imgWrapper">
+                <img src="./assets/avatar.JPG" alt="证件照">
+            </div>
+        </div>
+
+        <section>
+            <h2>基础信息</h2>
+            <div class="detail personal">
+                <div class="item">
+                    <span>学历</span>
+                    <span>本科</span>
+                </div>
+                <div class="item">
+                    <span>工作经验</span>
+                    <span>10年</span>
+                </div>
+                <div class="item">
+                    <span>意向薪资</span>
+                    <span>10000k</span>
+                </div>
+                <div class="item">
+                    <span>英语能力</span>
+                    <span>CET6</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>专业技能</h2>
+            <div class="detail skills">
+                <div class="radarWrapper">
+                    <div id="main" style="width: 300px; height:240px;"></div>
+                </div>
+                <div class="item">
+                    <span> <em>静态页面</em> </span>
+                    <span>熟悉静态页面制作技巧，能将设计稿 <strong>完美还原</strong> </span>
+                </div>
+                <div class="item">
+                    <span> <em>前后端分离</em> </span>
+                    <span>熟悉前后端分离技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</span>
+                </div>
+                <div class="item">
+                    <span> <em>vue</em> </span>
+                    <span>熟练掌握 Vue全家桶的使用，包括 VueCli、VueRouter、Vuex 等</span>
+                </div>
+                <div class="item">
+                    <span> <em>react</em> </span>
+                    <span>熟练掌握 React全家桶的使用，包括 react hooks、ReactRouter、Redux 等</span>
+                </div>
+                <div class="item">
+                    <span> <em>es6</em> </span>
+                    <span>熟悉 ES6，包括 let / Promise / await / 析构赋值</span>
+                </div>
+                <div class="item">
+                    <span> <em>electron</em> </span>
+                    <span>熟悉electron桌面端开发，包括两种进程中的api使用以及原生菜单的配置</span>
+                </div>
+                <div class="item">
+                    <span> <em>typescript</em> </span>
+                    <span>了解 TypeScript 的使用，包括ts中泛型的使用，我的项目就是 TS 实现的</span>
+                </div>
+                <div class="item">
+                    <span> <em>webpack</em> </span>
+                    <span>了解 Webpack 的配置</span>
+                </div>
+                <div class="item">
+                    <span> <em>nodejs</em> </span>
+                    <span>了解nodejs的主要模块，包括http server,files,stream,process等</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>联系方式</h2>
+            <div class="detail contact">
+                <div class="item">
+                    <svg>
+                        <use xlink:href="#icon-phone"/>
+                    </svg>
+                    <span>1572650xxxx</span>
+                </div>
+                <div class="item">
+                    <svg>
+                        <use xlink:href="#icon-email"/>
+                    </svg>
+                    <span>504177380@qq.com</span>
+                </div>
+                <div class="item">
+                    <svg>
+                        <use xlink:href="#icon-wechat"/>
+                    </svg>
+                    <span>Macguffen</span>
+                </div>
+                <div class="item">
+                    <svg>
+                        <use xlink:href="#icon-city"/>
+                    </svg>
+                    <span>郑州</span>
+                </div>
+
+            </div>
+        </section>
+
+    </aside>
+    <main>
+        <section>
+            <h2>关于我</h2>
+            <p>1年前端开发经验，熟悉Vue，React技术框架，熟悉HTML5,CSS3页面制作，熟悉模块化，工程化开发流程，熟练使用ES6，有移动端，小程序开发经验</p>
+        </section>
+
+        <section>
+            <h2>教育经历</h2>
+            <div class="item">
+                <h3>某个大学</h3>
+                <p>2012-2016</p>
+                <p>xx专业  大学本科毕业</p>
+            </div>
+        </section>
+        <section>
+            <h2>项目经历</h2>
+            <div class="item">
+                <h3>vue实现记账</h3>
+                <ul>
+                    <li>项目介绍：
+                        <ol>
+                            <li>
+                                一款基于vue/typescript的移动端单页面应用。
+                            </li>
+                            <li>
+                                这是一款为了能完成自己快速记账的需求，使用figma自己设计，开发完成的极简记账应用，特点是快速记账，ui美观，并且可以通过图表查看自己的消费记录。
+                            </li>
+                            <li>
+                                该项目使用vue装饰器完成了vue与typescript的结合，让我对装饰器与typescript有了深刻的理解。
+                            </li>
+                        </ol>
+                    </li>
+                    <li>技术栈：vue2、vue-router、vuex、ant-design、typescript</li>
+                    <li>预览项目: <a href="">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>react实现记账</h3>
+                <ul>
+                    <li>项目介绍：
+                        <ol>
+                            <li>
+                                一款基于react/typescript的移动端单页面应用
+                            </li>
+                            <li>
+                                这是从我自己的记账需求出发，参考了业界的优秀作品，自己从头到尾开发完成的一款记账应用，在vue版本的小王记账基础上重新设计了ui，增加了很多功能。整个应用页面灵活可配置，画面简洁清爽
+                            </li>
+                            <li>
+                                项目主要功能包括：综合数据展示，账户追踪，图表统计，预算统计，交易明细，分类管理等
+                            </li>
+                            <li>
+                                该项目大量使用函数组件与react hooks，让我对react hooks中的useState，useEffect，useRef等原生hooks以及自定义hooks有了深刻的理解和应用。并将react hooks的用法总结成了两篇博客
+                                <a href="">React学习之路-react hooks总结</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>技术栈：react、react-hooks、echarts、ant-design、typescript、es6</li>
+                    <li>预览项目: <a href="">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>vue2实现UI库</h3>
+                <ul>
+                    <li>项目介绍：
+                        <ol>
+                            <li>
+                                一款基于vue2的ui框架
+                            </li>
+                            <li>
+                                这是我为了学习如何使用vue2造轮子而编写的ui框架
+                            </li>
+                            <li>
+                                主要组件包括：栅格布局，layout布局，导航栏，弹出层等
+                            </li>
+                            <li>
+                                整个ui库的官网基于vuePress进行制作，能够很好的适配PC与手机端。UI库中的所有轮子都使用karma+macha进行了单元测试，并通过travis ci进行持续集成。
+                            </li>
+                            <li>
+                                整个造轮子的过程让我对vue2的特性与单元测试有了很深的了解，造轮子所遇到的问题与经验我都将其记录在博客 <a href="">《Vue造轮子笔记》</a> 中
+                            </li>
+                        </ol>
+                    </li>
+                    <li>技术栈：vue2、vue-router、es6、typescript、karma、macha</li>
+                    <li>预览项目: <a href="">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>vue3实现UI库</h3>
+                <ul>
+                    <li>项目介绍：
+                        <ol>
+                            <li>
+                                一款基于vue3的ui框架
+                            </li>
+                            <li>
+                                这是一款我在学习vue3过程中完成的一个ui框架，整个项目基于vue3+typescript完成
+                            </li>
+                            <li>
+                                主要组件包括switch切换按钮，button按钮，对话框，导航栏等
+                            </li>
+                            <li>
+                                整个ui库的官网全程自己手写，没有引用任何的UI库，能够很好的适配PC与手机端。
+                            </li>
+                            <li>
+                                整个制作过程让我对造轮子与vue3的特性有了很深的认识，我将其总结成了一篇博客 <a href="">《Vue3造轮子笔记》</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>技术栈：vue3、vue-router、typescript</li>
+                    <li>预览项目: <a href="">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>electron+react+七牛云实现七牛云文档</h3>
+                <ul>
+                    <li>项目介绍：
+                        <ol>
+                            <li>
+                                一款基于electron+react的桌面端markdown编辑器
+                            </li>
+                            <li>
+                                主要功能包括markdown文件的本地操作以及云同步操作（文件的增删改查导入）。整个项目设置项灵活，可以自由设置为本地存储或者是云同步存储，并包含从云端一键导入文件，一键上传云端等功能。
+                            </li>
+                            <li>
+                                整个项目前端基于react完成，并大量使用了react hooks，项目的主进程中使用了nodejs的文件模块，并使用流模块完成了数据的传输。
+                            </li>
+                            <li>
+                                项目中使用了很多electron原生的菜单功能，渲染进程与主进程api，让我对桌面端开发有了深刻的认识与理解
+                            </li>
+                            <li>
+                                整个制作过程让我对electron的用法有了深刻的理解,我将其总结到了自己的笔记中 <a href="">《electron入门》</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>技术栈：react 、react-hooks、electron、nodejs</li>
+                    <li>云文档下载地址：<a href="">点击这里下载</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>开源项目</h2>
+            <div class="item">
+                <h3>会动的多啦A梦</h3>
+                <ul>
+                    <li>这是我在学习CSS3和动画时制作的一个可爱作品</li>
+                    <li>技术栈：html5、css3、javascript</li>
+                    <li>代码链接： <a href="">点此查看</a></li>
+                    <li>预览项目:  <a href="">点此查看</a> </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>简易画板</h3>
+                <ul>
+                    <li>这是我在学习Canvas时做的一个小作品</li>
+                    <li>技术栈：canvas</li>
+                    <li>代码链接： <a href="https://github.com/mcguffen/canvas-demo">点此查看</a></li>
+                    <li>预览项目:  <a href="https://mcguffen.github.io/canvas/">点此查看</a> </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>网址导航</h3>
+                <ul>
+                    <li>这是我在学习js时做的一个网址导航。</li>
+                    <li>技术栈：html、js、css</li>
+                    <li>代码链接： <a href="https://github.com/Mcguffen/nav-demo">点此查看</a></li>
+                    <li>预览项目:  <a href="https://mcguffen.github.io/nav-demo/">点此查看</a> </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>工作经历</h2>
+            <div class="item">
+                <h3>上海xx</h3>
+                <ul>
+                    <li>工作职位：xx</li>
+                    <li>工作内容：
+                        <ol>
+                            <li>负责组织、编制开发项目的施工图预算；</li>
+                            <li>审核开发项目的竣工结算和审计；</li>
+                            <li>参与工程施工、材料和设备招标、投资控制；</li>
+                            <li>审核招标活动和合同条款中的标的；</li>
+                            <li>参与材料、设备考察询价，对原材料采购审核把关；</li>
+                            <li>审核设计图纸，掌握施工现场进展情况，发现问题；</li>
+                            <li>不断建立和完善建设项目的竣工结算制度。</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>上海</h3>
+                <ul>
+                    <li>工作职位：前端开发工程师(2019年8月-2021年5月)</li>
+                    <li>工作内容：
+                        <ol>
+                            <li>参与前端工作</li>
+                            <li>负责公司后端工作</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>其他链接</h2>
+            <div class="item">
+                <ul>
+                    <li><a href="https://mcguffen.github.io/">我的博客</a> ，目前已有 50 篇技术文章</li>
+                    <li><a href="https://mcguffen.github.io/">我的笔记</a> ，目前已有 50 篇技术笔记</li>
+                    <li><a href="https://github.com/Mcguffen/">我的 GitHub</a>，过去三个月有 312 次提交 </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>个人评价</h2>
+            <ol>
+                <li>痴迷新技术，喜欢承担有技术难度的工作，爱分享，善于知识总结梳理</li>
+                <li>绝大部分计算机基础系自学，对未知领域、新技术具有学习和探索的热情，乐于不断延伸自己的知识结构和技术栈</li>
+                <li>一年的工作经历，锻炼了我的沟通能力，协调能力</li>
+                <li>工作踏实、严谨；乐于团队合作与沟通，积极主动，有较强的责任感</li>
+            </ol>
+        </section>
+    </main>
+</div>
+
+  
+<script src="./main.js"></script>
 </body>
 </html>
