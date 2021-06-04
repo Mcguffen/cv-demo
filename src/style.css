@@ -164,6 +164,9 @@ main section .item ul li:first-child{
     bottom: 6px;
     left: 50%;
   }
+.btn_wrap a{
+        text-decoration: none;
+}
   @media screen and (max-width: 1260px) {
     .btn_wrap {
       left: auto;
@@ -190,4 +193,25 @@ main section .item ul li:first-child{
 
   .pdf {
     margin-right: 10px;
+  }
+
+  footer {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+  }
+  footer .footer-link {
+    display: inline-block;
+    color: #aaa;
+  }
+  footer .footer-link:hover {
+    background-color: #e6e6e6;
+  }
+  footer .footer-link .iconfont {
+    vertical-align: middle;
+    margin-right: 2px;
+    padding: 0px;
+  }
+  footer .footer-link .iconfont:hover {
+    background-color: initial;
   }
