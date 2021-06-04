@@ -9,12 +9,12 @@
     <style media="print">
         body {
           padding: 0;
-          background-color: #fff;
+
         }
     
-        .content {
-          border-radius: 0;
-          box-shadow: none;
+        #page {
+            width: 1024px;
+            min-height: 1440px;
         }
     
         .github-footer {
@@ -24,9 +24,16 @@
         .content .link {
           display: block;
         }
-        .page2{
-            page-break-before:always;
+
+        aside {
+            width: 340px;
+            border-right: 1px solid #ccc;
+            position: relative;
+            padding-top: 20px;
         }
+
+
+
       </style>
 
 </head>
@@ -36,6 +43,7 @@
         <h1>韩善阳</h1>
         <p>男 | 29岁 | 前端开发工程师 </p>
     </header>
+
     <aside>
         <!-- <div class="avatar">
             <div class="imgWrapper">
@@ -147,6 +155,7 @@
         </section>
 
     </aside>
+
     <main>
         <section>
             <h2>关于我</h2>
@@ -345,6 +354,7 @@
         </section>
     </main>
 </div>
+
 <footer class="github-footer">
     <a class="footer-link" href="https://github.com/Mcguffen/cv-demo" target="_blank">
       <i class="iconfont icon-link"></i>
@@ -358,7 +368,7 @@
       PDF简历
     </a>
     <span class="edit btn2">编辑</span>
-  </div>
+</div>
 
 <svg style="display:none" xmlns:xlink="http://www.w3.org/1999/xlink">
     <symbol id="icon-phone" viewBox="0 0 1024 1024">

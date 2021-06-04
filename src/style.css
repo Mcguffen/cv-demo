@@ -158,6 +158,10 @@ main section .item ul li:first-child{
     }
 }
 
+
+
+
+
 .btn_wrap {
     margin-left: 520px;
     position: fixed;
@@ -215,3 +219,4 @@ main section .item ul li:first-child{
   footer .footer-link .iconfont:hover {
     background-color: initial;
   }
+  
