@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width">
     <title>CV</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- 打印时的样式 -->
+    <style media="print">
+        body {
+          padding: 0;
+          background-color: #fff;
+        }
+    
+        .content {
+          border-radius: 0;
+          box-shadow: none;
+        }
+    
+        .github-footer {
+          display: none;
+        }
+    
+        .content .link {
+          display: block;
+        }
+        .page2{
+            page-break-before:always;
+        }
+      </style>
+
 </head>
 <body>
 <div class="layout" id="page">
@@ -45,45 +69,49 @@
         <section>
             <h2>专业技能</h2>
             <div class="detail skills">
+
                 <div class="radarWrapper">
                     <div id="main" style="width: 300px; height:240px;"></div>
                 </div>
-                <div class="item">
-                    <span> <em>静态页面</em> </span>
-                    <span>熟悉静态页面制作技巧，能将设计稿 <strong>完美还原</strong> </span>
+                <div class="item-wrapper">
+                    <div class="item">
+                        <span> <em>静态页面</em> </span>
+                        <span>熟悉静态页面制作技巧，能将设计稿 <strong>完美还原</strong> </span>
+                    </div>
+                    <div class="item">
+                        <span> <em>前后端分离</em> </span>
+                        <span>熟悉前后端分离技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>vue</em> </span>
+                        <span>熟练掌握 Vue全家桶的使用，包括 VueCli、VueRouter、Vuex 等</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>react</em> </span>
+                        <span>熟练掌握 React全家桶的使用，包括 react hooks、ReactRouter、Redux 等</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>es6</em> </span>
+                        <span>熟悉 ES6，包括 let / Promise / await / 析构赋值</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>electron</em> </span>
+                        <span>熟悉electron桌面端开发，包括两种进程中的api使用以及原生菜单的配置</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>typescript</em> </span>
+                        <span>了解 TypeScript 的使用，包括ts中泛型的使用，我的项目就是 TS 实现的</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>webpack</em> </span>
+                        <span>了解 Webpack 的配置</span>
+                    </div>
+                    <div class="item">
+                        <span> <em>nodejs</em> </span>
+                        <span>了解nodejs的主要模块，包括http server,files,stream,process等</span>
+                    </div>
                 </div>
-                <div class="item">
-                    <span> <em>前后端分离</em> </span>
-                    <span>熟悉前后端分离技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</span>
-                </div>
-                <div class="item">
-                    <span> <em>vue</em> </span>
-                    <span>熟练掌握 Vue全家桶的使用，包括 VueCli、VueRouter、Vuex 等</span>
-                </div>
-                <div class="item">
-                    <span> <em>react</em> </span>
-                    <span>熟练掌握 React全家桶的使用，包括 react hooks、ReactRouter、Redux 等</span>
-                </div>
-                <div class="item">
-                    <span> <em>es6</em> </span>
-                    <span>熟悉 ES6，包括 let / Promise / await / 析构赋值</span>
-                </div>
-                <div class="item">
-                    <span> <em>electron</em> </span>
-                    <span>熟悉electron桌面端开发，包括两种进程中的api使用以及原生菜单的配置</span>
-                </div>
-                <div class="item">
-                    <span> <em>typescript</em> </span>
-                    <span>了解 TypeScript 的使用，包括ts中泛型的使用，我的项目就是 TS 实现的</span>
-                </div>
-                <div class="item">
-                    <span> <em>webpack</em> </span>
-                    <span>了解 Webpack 的配置</span>
-                </div>
-                <div class="item">
-                    <span> <em>nodejs</em> </span>
-                    <span>了解nodejs的主要模块，包括http server,files,stream,process等</span>
-                </div>
+
             </div>
         </section>
 
@@ -373,6 +401,7 @@
 
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.0.1/echarts.min.js"></script>  
 <script src="./main.js"></script>
+<script src="./edit.js"></script>
 
 </body>
 </html>
